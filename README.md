@@ -136,9 +136,11 @@ See `requirements.txt`. Core dependencies include:
 
 ```bash
 python voice_typewriter.py
+```
 (Filename may vary if using a patched version)
 
-🧪 Notes on Reliability
+---
+## 🧪 Notes on Reliability
 Designed to avoid Windows focus and UIPI issues
 
 Uses clipboard paste where most reliable
@@ -149,34 +151,32 @@ Bounded audio buffers prevent memory issues
 
 Safe failure paths with logging
 
-🛠️ Logging
+## 🛠️ Logging
 Logs are written to:
 
-lua
-Copy code
+```lua
 %APPDATA%\VoiceTypewriter\voice_typewriter.log
 Useful for diagnostics and tuning.
+```
 
 📦 Packaging (EXE)
 The app is ready to be packaged into a single executable:
 
-bash
+```bash
 Copy code
 pip install pyinstaller
 pyinstaller --onefile --noconsole voice_typewriter.py
+```
 (Icon, version metadata, and auto-start polish can be added.)
 
+---
 ❤️ Philosophy
 This project prioritizes:
+- Reliability over gimmicks
+- Local processing over cloud dependence
+- Minimal friction for daily use
+- It is built to feel like a natural extension of the operating system — not a novelty tool.
 
-Reliability over gimmicks
-
-Local processing over cloud dependence
-
-Minimal friction for daily use
-
-It is built to feel like a natural extension of the operating system — not a novelty tool.
-
-📜 License
-Private / Internal use
+## 📜 License
+Private / Internal use</br>
 (Define license before public release)
