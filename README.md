@@ -2,6 +2,22 @@
 
 **Voice Typewriter** is a fast, accurate, system-wide **voice-to-text keyboard replacement** for Windows 10/11.
 
+⚠️ **LICENSE & USAGE NOTICE — READ FIRST**
+
+This repository is **source-available for private technical evaluation and testing only**.
+
+- ❌ No commercial use  
+- ❌ No production use  
+- ❌ No academic, institutional, or government use  
+- ❌ No research, benchmarking, or publication  
+- ❌ No redistribution, sublicensing, or derivative works  
+- ❌ No independent development based on this code  
+
+All rights remain exclusively with the author.  
+Use of this software constitutes acceptance of the terms defined in **LICENSE.txt**.
+
+---
+
 It allows you to dictate text **into any application** simply by placing the cursor and speaking — no commands, no training, no cloud dependency.
 
 Designed for real daily use.
@@ -170,13 +186,25 @@ pyinstaller --onefile --noconsole voice_typewriter.py
 (Icon, version metadata, and auto-start polish can be added.)
 
 ---
-❤️ Philosophy
-This project prioritizes:
-- Reliability over gimmicks
-- Local processing over cloud dependence
-- Minimal friction for daily use
-- It is built to feel like a natural extension of the operating system — not a novelty tool.
+## Contribution Policy
 
-## 📜 License
-Private / Internal use</br>
-(Define license before public release)
+Feedback, bug reports, and suggestions are welcome.
+
+You may submit:
+
+- Issues
+- Design feedback
+- Pull requests for review
+
+However:
+
+- Contributions do not grant any license or ownership rights
+- The author retains full discretion over acceptance and future use
+- Contributors receive no rights to reuse, redistribute, or derive from this code
+
+---
+## License
+This project is not open-source.
+
+It is licensed under a private evaluation-only license.
+See LICENSE.txt for full terms.
