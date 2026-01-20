@@ -1,4 +1,4 @@
-Voice_typer <Version>
+Voice Typewriter (aka Voice Typer <Version>
 Private Evaluation & Testing License (PETL) v1.0
 
 PRIVATE EVALUATION & TESTING LICENSE (PETL) v1.0
